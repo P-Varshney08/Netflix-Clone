@@ -1,0 +1,108 @@
+body{
+    background-color: black;
+    color: white;
+}
+.header{
+    background-image: url('images/bg.jpg');
+    margin: 15px;
+    background-size: cover;
+}
+.content{
+    text-align: center;
+}
+#search{
+    width: 350px;
+    height: 49px;
+}
+#btn{
+    background-color: red;
+    padding: 18px;
+    font-weight:700;
+    width: 200px;
+}
+#dropdown:hover{
+    background-color: rgb(151, 148, 148);
+}
+
+#btn:hover{
+    /* box-shadow: 2px 2px gray; */
+    transform: scale(1.05, 1.05);
+    transition: 0.2s;
+}
+p{
+    font-size: 28px;
+}
+#sgn_in{
+    background-color: red;
+    border: 0px;
+    padding: 4px;
+    /* width: 152px; */
+    border-radius: 5px;
+}
+#sgn_in:hover{
+    background-color: rgb(170, 12, 12);
+}
+.header2{
+    display: flex;
+    justify-content: space-between;
+}
+.cntn1, .cntn2, .cntn3, .cntn4{
+    text-align: center;
+    padding: 100px;
+}
+.img1, .img2, .img3, .img4{
+    padding: 50px;
+}
+.block1, .block2, .block3, .block4{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.blck1, .blck2, .blck3, .blck4{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+#para{
+    font-size: 50px;
+}
+.ques{
+    padding-left: 500px;
+    padding-right: 500px;
+    justify-content:center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#cell{
+    list-style-type: none;
+    padding: 15px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: rgb(67, 66, 66);
+    justify-content:center;
+}
+.footer > div{
+    padding: 50px;
+    color: grey;
+    display: flex;
+    justify-content: space-between;
+}
+.blcks{
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.same_ln{
+    display: flex;
+}
+@media all and (300px < min-width < 768px){
+    body{
+        width:fit-content;
+        height: fit-content;
+    }
+}
